@@ -110,18 +110,9 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-export DEVKITPRO=/home/diego/devkitpro # update this line to match your system
-export DEVKITARM=$DEVKITPRO/devkitARM
-export PAPATH=$DEVKITPRO/PAlib/lib
-export NOCASHGBA=$DEVKITPRO/nocashgba
-alias nds="wine $NOCASHGBA/NO\\\$GBA.EXE"
-
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
