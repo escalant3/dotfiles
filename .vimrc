@@ -1,6 +1,7 @@
 set background=dark
 set autoindent
 set number
+set expandtab
 :syntax on
 
 "Python options
