@@ -1,2 +1,4 @@
 color torte
-set guifont=Monospace\ Bold\ 10
+set guifont=Inconsolata\ 11
+set guioptions-=m
+set guioptions-=T
