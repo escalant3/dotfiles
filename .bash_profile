@@ -29,6 +29,7 @@ alias ls='ls -G'
 alias ll='ls -hl'
 
 export PATH='./node_modules/.bin/':$PATH
+export PATH=$HOME/.cabal/bin:$PATH
 
 # startup virtualenv-burrito
 if [ -f $HOME/.venvburrito/startup.sh ]; then
