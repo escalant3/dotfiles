@@ -54,3 +54,14 @@ set noerrorbells
 set novisualbell
 set t_vb=
 autocmd! GUIEnter * set vb t_vb=
+
+"Leader Mappings
+let mapleader = "-"
+"Source .vimrc
+nnoremap <leader>sv :source $MYVIMRC<cr>
+"Open NERDTree
+nnoremap <leader>nt :NERDTree<cr>
+"Hide search hightlighting
+nnoremap <leader>nh  :noh<cr>
+"Close Window
+nnoremap <leader>q  :q<cr>
