@@ -18,3 +18,6 @@ YELLOW="\[\033[0;33m\]"
 GREEN="\[\033[0;32m\]"
 
 export PS1="$GREEN(\A) $MAGENTA\u@\h\[\033[00m\]:$GREEN\w$YELLOW\$(parse_git_branch)\[\033[00m\]\n\$ "
+
+# Node auto path
+export PATH=./node_modules/.bin/:$PATH
